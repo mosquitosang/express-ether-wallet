@@ -13,8 +13,8 @@ app.get('/', function(req, res){
     res.sendFile(filePath);
 });
 
-app.get('/restaurants', function(req, res){
-    const filePath = path.join(__dirname, 'views', 'restaurants.html')
+app.get('/newpage', function(req, res){
+    const filePath = path.join(__dirname, 'views', 'hellopage.html')
     res.sendFile(filePath);
 })
 
